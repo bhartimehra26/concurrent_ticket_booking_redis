@@ -1,0 +1,11 @@
+config:
+  target: "http://localhost:3000"
+  phases:
+    - duration: 20      # run test for 20 seconds
+      arrivalRate: 15   # 15 requests per second
+
+scenarios:
+  - name: "Booking Seat 1 Concurrently"
+    flow:
+      - post:
+          url: "/api/book/1"
