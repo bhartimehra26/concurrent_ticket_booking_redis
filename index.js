@@ -17,8 +17,7 @@ const startServer = async () => {
     }
 };
 
-<<<<<<< HEAD
+
 startServer();
-=======
-startServer();
->>>>>>> b91cf74 (Updated Redis connection to use Redis Cloud)
+
+
